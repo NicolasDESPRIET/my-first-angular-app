@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  angularproject:
+    container_name: angular_node_project
+    build: 
+      context: .
+    ports:
+      - '4200:4200'
+    volumes:
+      - .:/app
+
