@@ -2,6 +2,8 @@ FROM node
 MAINTAINER Nicolas DESPRIET
 
 RUN npm install -g @angular/cli
+RUN npm install -g npm@7.5.6
+
 
 WORKDIR /app
 
